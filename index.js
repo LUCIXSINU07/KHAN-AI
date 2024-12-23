@@ -28,7 +28,7 @@ const Crypto = require('crypto')
 const path = require('path')
 const prefix = config.PREFIX
 
-const ownerNumber = ['923146190772']
+const ownerNumber = ['916290625264']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
@@ -38,7 +38,7 @@ const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
 fs.writeFile(__dirname + '/sessions/creds.json', data, () => {
-console.log("Session downloaded ✅")
+console.log("ynZj2DBZ#b5HzIMPEPMG2i_tsUigsR4e4AjbGN8vFZe251lFGBVU")
 })})}
 
 const express = require("express");
